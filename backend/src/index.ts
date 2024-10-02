@@ -8,3 +8,7 @@ process.on("uncaughtException", async (err) => {
     process.exit(1);
   }
 });
+
+async function initApp() {}
+
+initApp();
